@@ -7,6 +7,7 @@ function convertValues() {
     let inputCurrency = document.querySelector("#result").value
     let myValue = document.querySelector("#value")
     let myResult = document.querySelector("#resultValue")
+    let imageCurrency = document.querySelector(".seccondCurrency")
 
     const dolarToday = 5.2
     const euroToday = 6.2
@@ -16,12 +17,16 @@ function convertValues() {
             style: "currency",
             currency: "USD"
         }).format(inputCurrency / dolarToday)
+
+        imageCurrency.src = "./img/usd.png"
     }
     if (currencySelect.value == "euro") {
         myResult.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "EUR"
         }).format(inputCurrency / euroToday )
+
+         imageCurrency.src = "./img/euro.png"
     }
 
     if (currencySelect.value == "real") {

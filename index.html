@@ -23,12 +23,12 @@
 
             <label>
                 Converter <strong>de</strong>
-                <select id="">
-                    <option value="">R$ Real Brasileiro</option>
-                    <option value="">US$ Dólar Americano</option>
-                    <option value="">€ Euro</option>
-                    <option value="">£ Libra</option>
-                    <option value="">BTC Bitcoins</option>
+                <select id="change">
+                    <option>R$ Real Brasileiro</option>
+                    <option>US$ Dólar Americano</option>
+                    <option>€ Euro</option>
+                    <option>£ Libra</option>
+                    <option>BTC Bitcoins</option>
                 </select>
             </label>
 
@@ -36,12 +36,12 @@
 
                 Converter <strong>para</strong>
 
-                <select name="" id="">
-                    <option value="">US$ Dólar Americano</option>
-                    <option value="">R$ Real Brasileiro</option>
-                    <option value="">€ Euro</option>
-                    <option value="">£ Libra</option>
-                    <option value="">(BTC) Bitcoins</option>
+                <select id="switchTo">
+                    <option value="dolar">US$ Dólar Americano</option>
+                    <option value="real">R$ Real Brasileiro</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">£ Libra</option>
+                    <option value="bitcoins">(BTC) Bitcoins</option>
                 </select>
 
             </label>
@@ -61,14 +61,14 @@
 
                     <label>
                         Real
-                        <p>R$ 10.0000,00</p>
+                        <p id="value">R$ 10.0000,00</p>
                     </label>
 
                     <img class="seta" src="./img/seta.png" alt="imagem-de-uma-seta">
 
                     <img class="bandeiras" src="./img/usd.png" alt="Imagem-da-bandeira-dos-estados-unidos-da-america">
                     <label>Dólar
-                        <p>US$ 2.000,00</p>
+                        <p id="resultValue">US$ 2.000,00</p>
                     </label>
                 </div>
             </div>
@@ -78,5 +78,7 @@
 
 
 </body>
+
+<script src="./script.js"></script>
 
 </html>

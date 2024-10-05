@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+}
+
+body {
+    background-color: #8A50FC;
+}
+
+#logo {
+    width: 200px;
+    margin: 10px auto 25px auto;
+    display: block;
+}
+
+main {
+    background-color: #F5FFFA;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+section {
+    display: block;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+label, select {
+    display: block;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+}
+
+select, input {
+    display: block;
+    width: 327px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #555555;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding-left: 15px;
+}
+
+button {
+    margin-top: 10px;
+    width: 327px;
+    height: 48px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #772fd3;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+button:active {
+    background-color: #FFD700;
+    color: #772fd3;
+    opacity: 0.9;
+}
+
+#preview {
+    border: 2px solid #772fd3;
+    margin-top: 27px;
+    border-radius: 20px;
+}
+
+#preview div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bandeiras {
+    width: 44px;
+    margin: 0 auto;
+    display: block;
+}
+
+.seta {
+    width: 36px;
+    margin: 20px auto;
+    display: block;
+}
+
+#preview label {
+    text-align: center;
+}
+
+#preview p {
+    font-size: 20px;
+    color: #555555;
+    font-weight: 700;
+    text-align: center;
+}
